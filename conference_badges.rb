@@ -21,6 +21,6 @@ end
 def printer(speakers)
   printers = batch_badge_creator(speakers)
   printers.each do |printer|
-    puts printers[printer]
+    puts printer
   end
 end
